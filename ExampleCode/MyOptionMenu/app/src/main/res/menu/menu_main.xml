@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/menu_refresh"
+        android:id="@+id/refresh"
+        android:title="새로고침"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/menu_search"
+        android:title="검색"
+        app:showAsAction="always|withText"
+        app:actionLayout="@layout/search_menu"/>
+    <item
+        android:icon="@drawable/menu_settings"
+        android:id="@+id/settings"
+        android:title="셋팅"
+        app:showAsAction="always"/>
+
+</menu>
