@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/singer"/>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선미"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/profile_cellNumer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000-0000-0000"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/profile_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="5dp"
+                android:text="20"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
